@@ -2,6 +2,14 @@
 
 
 [[projects]]
+  branch = "v2"
+  digest = "1:342378ac4dcb378a5448dd723f0784ae519383532f5e70ade24132c4c8693202"
+  name = "github.com/go-yaml/yaml"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "5420a8b6744d3b0345ab293f6fcba19c978f1183"
+
+[[projects]]
   digest = "1:39170dcf72d0ac5933791daaf27a80782c24e9946cdc60fe98928d9429a9726d"
   name = "github.com/kisielk/gotool"
   packages = ["."]
@@ -17,7 +25,7 @@
   revision = "8791a200eb40f8625a152bfb8336171305f5f35c"
 
 [[projects]]
-  digest = "1:0a32435e3f12b75f2c0cd806c5b21fb92e29f70e5f76880dc852bba5e10f6585"
+  digest = "1:ad166b635df5a57fdf225a5d3c8b8ce91b52b6a64492d506cef55e08596f87e0"
   name = "github.com/nbutton23/zxcvbn-go"
   packages = [
     ".",
@@ -34,7 +42,7 @@
   revision = "a22cb81b2ecdde8b68e9ffb8824731cbf88e1de4"
 
 [[projects]]
-  digest = "1:e54fe200d15850589f578095e5b23ed0afb8d44fb39122e63b5195cbd3858f30"
+  digest = "1:b84c6d16c0a4e05c58655dde79e0818435f866e340ff6618c6eecc0dbc1f4ddf"
   name = "github.com/onsi/ginkgo"
   packages = [
     ".",
@@ -60,7 +68,7 @@
   revision = "11459a886d9cd66b319dac7ef1e917ee221372c9"
 
 [[projects]]
-  digest = "1:e340739c2403b0e6ee006e83c375754f44c1a483b695eff1b588acf8c4824925"
+  digest = "1:e7a2ed7c8749b6537e695f835a9c03a588ce5b458a6d9eec47515d6a7bc9a7d3"
   name = "github.com/onsi/gomega"
   packages = [
     ".",
@@ -88,7 +96,7 @@
   revision = "256dc444b735e061061cf46c809487313d5b0065"
 
 [[projects]]
-  digest = "1:499075870f4939e64e9d93c84c5fdf9b6253ec6e89c5dcb0a69f91292d6a2b30"
+  digest = "1:ccf9bf60ac2bb099ca5b545e1a4ee36a523f21e11d7db6648ae1c3f2be3a6077"
   name = "golang.org/x/net"
   packages = [
     "html",
@@ -106,7 +114,7 @@
   revision = "164713f0dfcec4e80be8b53e1f0811f5f0d84578"
 
 [[projects]]
-  digest = "1:387e284158b231a5993cd01407562fc211f076a8904821db6993cf8dbf57b948"
+  digest = "1:1d04dcba27fd3dfe0d1ea223853111097265e3832d88ddde27e7c9484ebac6b6"
   name = "golang.org/x/text"
   packages = [
     "encoding",
@@ -131,7 +139,7 @@
   revision = "1cbadb444a806fd9430d14ad08967ed91da4fa0a"
 
 [[projects]]
-  digest = "1:96b9641eaaf0d03defe4e63d05e4711bf8066c543d4de838438244955811ff17"
+  digest = "1:c29515d7128bd5661af6b3979f0a16d29817717de1d8f79b586685155926fbf8"
   name = "golang.org/x/tools"
   packages = [
     "go/ast/astutil",
@@ -152,6 +160,7 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/go-yaml/yaml",
     "github.com/kisielk/gotool",
     "github.com/mozilla/tls-observatory/constants",
     "github.com/nbutton23/zxcvbn-go",
@@ -159,7 +168,6 @@
     "github.com/onsi/gomega",
     "github.com/ryanuber/go-glob",
     "golang.org/x/tools/go/loader",
-    "gopkg.in/yaml.v2",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1

@@ -3,6 +3,7 @@ module github.com/securego/gosec
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/golang/protobuf v1.2.0 // indirect
+	github.com/go-yaml/yaml v2.0.0-20170812160011-eb3733d160e7
 	github.com/kisielk/gotool v0.0.0-20161130080628-0de1eaf82fa3
 	github.com/kr/pretty v0.1.0 // indirect
 	github.com/mozilla/tls-observatory v0.0.0-20180409132520-8791a200eb40
@@ -18,5 +19,4 @@ require (
 	golang.org/x/text v0.0.0-20170915090833-1cbadb444a80 // indirect
 	golang.org/x/tools v0.0.0-20170915040203-e531a2a1c15f
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
-	gopkg.in/yaml.v2 v2.0.0-20170812160011-eb3733d160e7
 )

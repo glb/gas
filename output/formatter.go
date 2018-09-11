@@ -23,7 +23,7 @@ import (
 	plainTemplate "text/template"
 
 	"github.com/securego/gosec"
-	"gopkg.in/yaml.v2"
+	"github.com/go-yaml/yaml"
 )
 
 // ReportFormat enumrates the output format for reported issues
